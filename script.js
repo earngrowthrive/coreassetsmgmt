@@ -42,15 +42,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
                 phone: document.getElementById('phone').value,
-                portfolioType: document.getElementById('portfolio-type').value,
+                portfolioSize: document.getElementById('portfolio-size').value,
                 message: document.getElementById('message').value
             };
 
-            // For GitHub Pages, you'll need to integrate with a form service
-            // like Formspree, Netlify Forms, or Google Forms
-            // For now, we'll just show a message
+            // For GitHub Pages, integrate with a form service like Formspree
+            // For now, show confirmation message
             
-            alert('Thank you for your interest! We will contact you soon.\n\nNote: To make this form functional, please integrate with a form service like Formspree or configure email handling.');
+            alert('Thank you for reaching out! We will contact you within 24 hours to schedule your consultation.');
             
             // Reset form
             contactForm.reset();
